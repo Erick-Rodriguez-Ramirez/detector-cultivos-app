@@ -1,0 +1,9 @@
+/* Elimina cualquier margen predeterminado del body y html */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Asegura que no haya scroll horizontal a nivel global */
+  width: 100%; /* Asegura que el body use todo el ancho */
+}
+
+/* Puedes añadir más estilos globales aquí si es necesario */
