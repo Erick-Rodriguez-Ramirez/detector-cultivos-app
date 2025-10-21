@@ -99,7 +99,7 @@ function App() {
             🌿 Detector de Enfermedades de Cultivos
           </Typography>
           <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
-            Sube una imagen de una hoja para analizarla con IA.
+            Sube una imagen de una hoja para analizarla con el modelo.
           </Typography>
 
           {/* Menú Desplegable */}
