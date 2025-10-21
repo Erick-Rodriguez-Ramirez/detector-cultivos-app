@@ -53,7 +53,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://wailsome-unrectified-hoa.ngrok-free.app', { method: 'POST', body: formData });
+      const response = await fetch('https://wailsome-unrectified-hoa.ngrok-free.dev', { method: 'POST', body: formData });
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({ error: `Error del servidor: ${response.statusText}` }));
         throw new Error(errorData.error || `Error del servidor: ${response.statusText}`);
